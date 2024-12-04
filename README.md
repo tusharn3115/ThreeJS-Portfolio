@@ -25,7 +25,20 @@ Welcome to my portfolio project! This is where creativity meets functionality. T
 ## 👀 Sneak Peeks  
 
 ### Homepage  
-![Sneak Peek]([https://raw.githubusercontent.com/your-username/your-repo/main/assets/sneakpeek1.png](https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true))
+Here's how you can include your sneak peek image in the **Homepage Sneak Peek** section of your README:  
+
+---
+
+## 👀 Sneak Peeks  
+
+### Homepage  
+> A captivating hero section with animated text and a spinning 3D logo.  
+
+![Homepage Sneak Peek](https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true)  
+
+---
+
+Let me know if you’d like to add more sneak peek links or additional sections! 😊
 
 
 ### Projects Section  
