@@ -25,7 +25,8 @@ Welcome to my portfolio project! This is where creativity meets functionality. T
 ## 👀 Sneak Peeks  
 
 ### Homepage  
-https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true
+![Sneak Peek]([https://raw.githubusercontent.com/your-username/your-repo/main/assets/sneakpeek1.png](https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true))
+
 
 ### Projects Section  
 In Production...... 
