@@ -25,10 +25,8 @@ Welcome to my portfolio project! This is where creativity meets functionality. T
 ## 👀 Sneak Peeks  
 
 ### Homepage  
-[> A captivating hero section with animated text and a spinning 3D logo.  
+https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true
 
-![Homepage Sneak Peek][(https://via.placeholder.com/600x300)](https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true)  
-](https://github.com/tusharn3115/ThreeJS-Portfolio/blob/master/public/SneakPeaks/Home.png?raw=true)
 ### Projects Section  
 In Production...... 
 
