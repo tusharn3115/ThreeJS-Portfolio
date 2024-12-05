@@ -36,6 +36,7 @@ const Hero = () => {
                         <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
                         {/* model 1 */}
+                        {/* <HeroCamera> */}
                         {/* <Model
                             // scale={0.1}
                             position={[1.09, -9.1, 4.5]}
@@ -44,6 +45,7 @@ const Hero = () => {
                         // position={[0, 0, 0]}
                         // rotation={[0, -Math.PI / 2, 0]}    //-Math.PI / 2 to rotate our model by 90 degrees clockwise
                         /> */}
+                        {/* </HeroCamera> */}
 
                         {/* model 2 */}
                         {/* hero component helps us to move the model */}
@@ -73,8 +75,8 @@ const Hero = () => {
 
 
             {/* contact button */}
-            <div className='absolute bottom-7 left-[32%] right-0 w-60 z-10 c-space'>
-                <a href="/contact" className='w-fit'>
+            <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+                <a href="#about" className="w-fit">
                     <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
