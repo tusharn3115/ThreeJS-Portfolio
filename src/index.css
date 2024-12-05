@@ -6,6 +6,7 @@
 
 * {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
   font-family: "Jost", sans-serif;
 }
 

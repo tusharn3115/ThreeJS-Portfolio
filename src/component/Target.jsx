@@ -1,4 +1,4 @@
-import { useGLTF } from '@react-three/drei'
+import { Float, useGLTF } from '@react-three/drei'
 import React, { useRef } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
@@ -22,7 +22,7 @@ const Target = (props) => {
     })
 
   return (
-    <mesh {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} >
+    <mesh floatIntensity={1} {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} >
         <primitive object={scene} />
     </mesh>
   )

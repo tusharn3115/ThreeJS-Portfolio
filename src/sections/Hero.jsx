@@ -59,7 +59,7 @@ const Hero = () => {
                         </HeroCamera>
 
                         <group>
-                            <Target position={isMobile ? [-4, -8, 12] : [-10, -8, 14]} scale={isMobile ? 1.5 : 2} />
+                            <Target position={isMobile ? [-4, -8, 12] : [-10, -6.5, 14]} scale={isMobile ? 1.5 : 2} />
                             <ReactLogo position={isMobile ? [3, 2.7, 7] : [13, 7, 1]} />
                             <Cube />
                             <Rings position={isMobile ? [-8, 10, 10] : [-15.5, 6, 14]} />
@@ -73,7 +73,7 @@ const Hero = () => {
 
 
             {/* contact button */}
-            <div className='absolute bottom-7 left-[32%] right-0 w-40 z-10 c-space'>
+            <div className='absolute bottom-7 left-[32%] right-0 w-60 z-10 c-space'>
                 <a href="/contact" className='w-fit'>
                     <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
