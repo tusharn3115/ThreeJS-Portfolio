@@ -52,9 +52,9 @@ const Hero = () => {
                         <HeroCamera>
                             <OldComputer
                                 // scale={0.1}
-                                position={isMobile ? [-0.5, -9.1, 7] : [1.09, -9.1, 7]}
+                                position={isMobile ? [-0.7, -7, 7] : [1.09, -8.2, 2]}
                                 rotation={[0, -Math.PI / 14, 0]}
-                                scale={isMobile ? 4 : 4.7}
+                                scale={isMobile ? 4 : 5}
                             // position={[0, 0, 0]}
                             // rotation={[0, -Math.PI / 2, 0]}    //-Math.PI / 2 to rotate our model by 90 degrees clockwise
                             />
@@ -62,7 +62,7 @@ const Hero = () => {
 
                         <group>
                             <Target position={isMobile ? [-4, -8, 12] : [-10, -6.5, 14]} scale={isMobile ? 1.5 : 2} />
-                            <ReactLogo position={isMobile ? [3, 2.7, 7] : [13, 7, 1]} />
+                            <ReactLogo position={isMobile ? [5, 3.9, 7] : [13, 7, 1]} />
                             <Cube />
                             <Rings position={isMobile ? [-8, 10, 10] : [-15.5, 6, 14]} />
                         </group>
