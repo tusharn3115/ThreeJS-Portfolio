@@ -1,5 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { myProjects } from '../constants';
+import { gsap } from 'gsap';
+import { Center, OrbitControls } from '@react-three/drei';
+import CanvasLoader from '../component/CanvasLoader';
+import ProjectDemo from '../component/ProjectDemo';
+import { Canvas } from '@react-three/fiber';
 
 const projectCount = myProjects.length;
 
@@ -19,6 +24,25 @@ const Projects = () => {
       }
     });
   };
+
+  // Trigger animation when currentProject changes
+  useEffect(() => {
+    // Clear existing animations
+    gsap.killTweensOf('.project-details');
+
+    // Animate the title, description, and subdescription character by character
+    gsap.fromTo(
+      '.project-details .animatedText',
+      { opacity: 0, x: -50 },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 0.5,
+        stagger: 0.05, // Delay between each character
+        ease: 'power3.out',
+      }
+    );
+  }, [selectedProjectIndex]);
 
   return (
     <section className="c-space my-20">
@@ -47,7 +71,7 @@ const Projects = () => {
           </div>
 
           {/* Project description */}
-          <div className="flex flex-col gap-5 text-white-600 my-5">
+          <div className="flex flex-col gap-5 text-white-600 my-5 project-details">
             <p className="text-white text-2xl font-semibold animatedText">
               {currentProject.title}
             </p>
@@ -105,6 +129,22 @@ const Projects = () => {
               />
             </button>
           </div>
+        </div>
+
+        {/* 3d model for lil project preview */}
+        <div className='border border-black-300 bg-black-200 rounded-lg h-96 md:h-full'>
+          <Canvas>
+            <ambientLight intensity={3} />
+            <directionalLight position={[10, 10, 5]} />
+            <Center>
+              <Suspense fallback={<CanvasLoader />}>
+                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
+                  <ProjectDemo texture={currentProject.texture} />
+                </group>
+              </Suspense>
+            </Center>
+            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+          </Canvas>
         </div>
       </div>
     </section>
