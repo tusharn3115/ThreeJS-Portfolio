@@ -63,7 +63,7 @@ export const myProjects = [
     subdesc:
       "Rejouice is a branding agency site built with HTML, Tailwind, JS, and GSAP, featuring modern design and animations.",
     href: "https://rejouice-peach.vercel.app/",
-    texture: "/textures/project/rejoice.mp4",
+    texture: "/textures/project/rejoice1.mp4",
     logo: "/assets/project1-logo.png",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -100,7 +100,7 @@ export const myProjects = [
     subdesc:
       "ClinicCare is a full-stack project for booking doctor appointments, built with React, Tailwind, Node.js, and MongoDB. It streamlines scheduling and healthcare services.",
     href: "https://clinic-care-three.vercel.app/",
-    texture: "/textures/project/cliniccare.mp4",
+    texture: "/textures/project/cliniccare1.mp4",
     logo: "/assets/project2.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -137,7 +137,7 @@ export const myProjects = [
     subdesc:
       "Doze Remastered is a one-of-a-kind website featuring captivating frame animations, built using HTML, Tailwind, JavaScript, and GSAP for a dynamic, interactive experience.",
     href: "https://frame-animation-henna.vercel.app/",
-    texture: "/textures/project/doze.mp4",
+    texture: "/textures/project/doze1.mp4",
     logo: "/assets/project3.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -176,7 +176,7 @@ export const myProjects = [
     subdesc:
       "Significo is a clone website created with HTML, JavaScript, Tailwind, and GSAP to showcase and test my creativity and animation skills, offering a dynamic user experience.",
     href: "https://significo-iota.vercel.app/",
-    texture: "/textures/project/significo.mp4",
+    texture: "/textures/project/significo1.mp4",
     logo: "/assets/project4.ico",
     logoStyle: {
       backgroundColor: "#0E1F38",
