@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.119.0",
     "@react-three/fiber": "^8.17.10",
@@ -20,6 +21,7 @@
     "react-dom": "^18.3.1",
     "react-globe.gl": "^2.28.0",
     "react-responsive": "^10.0.0",
+    "react-toastify": "^10.0.6",
     "three": "^0.171.0"
   },
   "devDependencies": {
